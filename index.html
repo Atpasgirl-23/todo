@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo__top">
+        <input class="input" type="text" />
+        <button class="button">add</button>
+      </div>
+      <div class="todo__body"></div>
+    </div>
+    <div class="modal">
+      <div class="modal__container">
+        <h2 class="modal__title">Edit todo</h2>
+        <form class="modal__form">
+          <input type="text" class="input modal__input" />
+          <div class="modal__btns">
+            <button class="modal__cancel" type="reset">Cancel</button>
+            <button class="button" type="submit">Update</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <template class="todo__template"
+      ><div class="todo__item">
+        <p class="todo__text">I will give time 2 hours css</p>
+        <div class="todo__btns">
+          <button class="todo__edit">
+            <img src="./icons8-edit-50.png" alt="" />
+          </button>
+          <button class="todo__complete">
+            <img src="./icon.png" alt="" />
+          </button>
+          <button class="todo__delete">
+            <img src="./icons8-delete.svg" alt="" />
+          </button>
+        </div></div
+    ></template>
+  </body>
+</html>
